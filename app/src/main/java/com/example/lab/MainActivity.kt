@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
 
         btn.setOnClickListener{
             intent = Intent(this,MainActivity2::class.java)
-            intent.putExtra("text","яичко228")
+            intent.putExtra("text","яички228")
             startActivity(intent)
         }
     }
